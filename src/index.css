@@ -1,0 +1,112 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: black;
+  color: white;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.nav_bar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-weight: bold;
+  padding: 15px;
+  background-color: rgb(62, 13, 108);
+  /* border: 1px solid white; */
+  font-size: 1.3rem;
+}
+.nav_bar .left{
+  width: 20%;
+  /* background-color: yellow; */
+}
+.nav_bar .search_bar{
+width: 40%;
+background-color: black;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 15px;
+border: 2px solid grey;
+border-radius: 20px;
+}
+
+.nav_bar .right{
+  width: 45%;
+  text-align: center;
+}
+.nav_bar .search_bar input{
+  width: 80%;
+  /* height: 28px; */
+  border:none;
+  background-color: rgb(0, 0, 0);
+  color:white;
+}
+input::placeholder{
+  padding: 10px;
+  font-weight: bold;
+  /* font-size: 1rem; */
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input:focus{
+  border:none;
+  outline: none;
+}
+.sub_bar{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(31, 31, 135);
+  font-weight: bold;
+}
+.sub_bar .items{
+  padding: 15px;
+  cursor: pointer;
+}
+.sub_bar .items:hover{
+background-color: black;
+}
+
+.product_detail{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.admin{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+label{
+  font-weight: bold;
+  /* font-size: 0.9rem; */
+}
+
+button .btn{
+  font-weight: bold;
+}
+
+span:hover{
+  cursor: pointer;
+}
+td,th{
+  cursor: pointer;
+}
+ .table td,
+ .table th {
+   /* text-align: center; */
+   vertical-align: middle;
+ }
